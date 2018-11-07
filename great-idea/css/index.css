@@ -170,6 +170,10 @@ nav a {
 	justify-content: space-between;
 }
 
+.main-content .bottom div {
+	width: 250px;
+}
+
 .main-content img {
 
 }
