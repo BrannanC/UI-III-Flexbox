@@ -294,3 +294,84 @@ footer p {
 		flex-direction: column;
 	}
 }
+
+/* ----------------- */
+/* ---- VISION ---- */
+/* --------------- */
+
+.vision {
+	width: 800px;
+}
+
+.vision .top {
+	margin: 60px 0;
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 2px solid black;
+}
+
+.vision .top h1 {
+	text-align: center;
+}
+
+.vision .top img {
+	width: 800px;
+}
+
+.vision .left {
+	width: 200px;
+	margin: 20px;
+}
+
+.vision .left ul {
+	list-style-type: square;
+	margin: 25px 0 0 20px;
+	line-height: 2;
+}
+
+.vision .right {
+	width: 500px;
+	margin: 20px;
+}
+
+.vision .bottom {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background: lightblue;
+	padding: 40px;
+}
+
+.vision footer {
+	text-align: center;
+}
+
+@media (max-width: 800px) {
+
+	.vision {
+		width: 80vw;
+	}
+
+	header {
+		width: 80vw;
+	}
+
+	nav {
+		flex-direction: column;
+		flex-wrap: wrap;
+		height: 70px;
+		align-content: flex-start;
+	}
+
+	nav a {
+		margin: 2px 8px 0 0;
+	}
+
+	.vision .top img {
+		display: none;
+	}
+
+	.vision .left {
+		order: 1;
+	}
+}
