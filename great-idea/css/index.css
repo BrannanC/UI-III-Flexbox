@@ -64,3 +64,123 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* ---- General Styles ---- */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 auto;
+	width: 800px;
+	line-height: 1.2;
+}
+
+/* ---- Header and Nav ---- */
+header {
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	top: 0;
+	width: 800px;
+	background: rgb(241,248,255);
+	border-radius: 4px;
+	z-index: 1;
+}
+
+nav {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+}
+
+nav a {
+	color: rgb(145, 158, 165);
+	text-decoration: none;
+	font-family: 'Patrick Hand', cursive;
+}
+
+/* .logo {
+} */
+
+/* ---- Top Half ---- */
+
+.top-half {
+	display: flex;
+	justify-content: space-between;
+	height: 450px;
+	margin-top: 90px;
+	border-bottom: 2px solid black;
+}
+
+.top-half .innovation {
+	margin: 50px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.top-half h1 {
+	font-size: 50px;
+}
+
+.top-half .img-right {
+
+}
+
+.top-half img {
+	height: 350px;
+}
+
+.top-half button {
+	align-self: center;
+	width: 80%;
+	font-size: 18px;
+    border: 1px solid black;
+    text-decoration: none;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+/* ---- Bottom Half (Content) ---- */
+
+.main-content {
+	display: flex;
+	flex-direction: column;
+	border-bottom: 2px solid black;
+}
+
+.main-content .top {
+	margin: 30px 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.main-content .top div {
+	width: 45%;
+}
+
+.main-content .bottom {
+	margin: 30px 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.main-content img {
+
+}
+
+/* ---- Footer ---- */
+
+footer {
+	margin: 30px 0;
+}
+
+footer p {
+	text-align: center;
+	margin: 50px 0 80px;
+}
