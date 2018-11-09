@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5 {
 
 body {
 	margin: 0 auto;
-	width: 800px;
+	width: 86%;
 	line-height: 1.2;
 }
 
@@ -84,16 +84,15 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	top: 0;
-	width: 800px;
-	background: rgb(241,248,255);
-	border-radius: 4px;
+	width: 100%;
 	z-index: 1;
 }
 
 nav {
 	display: flex;
 	width: 100%;
-	justify-content: space-evenly;
+	justify-content: space-between;
+	margin-right: 97px;
 }
 
 nav a {
@@ -102,28 +101,32 @@ nav a {
 	font-family: 'Patrick Hand', cursive;
 }
 
-/* .logo {
-} */
+.logo {
+	margin-right: 139px;
+}
 
 /* ---- Top Half ---- */
 
 .top-half {
-	display: flex;
-	justify-content: space-between;
-	height: 375px;
-	margin-top: 80px;
-	border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    height: 59vh;
+    margin-top: 80px;
+    border-bottom: 2px solid black;
 }
 
 .top-half .innovation {
-	margin: 50px;
-	display: flex;
-	flex-direction: column;
-	text-align: center;
+    margin: 90px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
 }
 
 .top-half h1 {
-	font-size: 50px;
+    font-size: 4.6rem;
+    line-height: 1;
+    font-weight: 600;
 }
 
 .top-half .img-right {
@@ -131,17 +134,20 @@ nav a {
 }
 
 .top-half img {
-	height: 350px;
+    height: 78%;
+    margin-top: 30px;
 }
 
 .top-half button {
-	align-self: center;
-	width: 80%;
-	font-size: 18px;
+    align-self: center;
+    width: 55%;
+    font-size: 18px;
     border: 1px solid black;
     text-decoration: none;
     font-family: sans-serif;
     cursor: pointer;
+    margin-top: 5px;
+    height: 35px;
 }
 
 /* ---- Bottom Half (Content) ---- */
@@ -153,25 +159,26 @@ nav a {
 }
 
 .main-content .top {
-	margin: 30px 0;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	margin: 35px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .main-content .top div {
-	width: 45%;
+    width: 50%;
 }
 
 .main-content .bottom {
-	margin: 30px 0;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+    margin: 35px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .main-content .bottom div {
-	width: 250px;
+    width: 34%;
+    line-height: 1.15;
 }
 
 .main-content img {
@@ -181,7 +188,7 @@ nav a {
 /* ---- Footer ---- */
 
 footer {
-	margin: 30px 0;
+	margin: 45px 0;
 }
 
 footer p {
